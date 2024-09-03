@@ -4,14 +4,15 @@
 }
 
 body{
-            background: lightgrey;
-            font-family: Arial, Helvetica, sans-serif;
-        }     
-        #container{
-            width: 1100px;
-            margin: 0px auto;
-            border: 1px solid black;
-        } 
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+} 
 
 header{
     background: red;
@@ -22,16 +23,33 @@ header{
     color: rgb(177, 242, 247);
     border-bottom: 3px dashed black;
 }
+
 nav{
     background: rgb(99, 135, 243);
     height: 50px;
     border-bottom: 1px solid black;
 }
+
 nav ul li{
     float: left;
     list-style: none;
     margin: 10px;
 }
+
 .clearfix{
     clear: both;  
-}     
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    background: green;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    min-height: 500px;
+    background: rgb(219, 219, 83);
+}
